@@ -1,0 +1,32 @@
+div{
+	font-family: 'Arial';
+	background-color: #a8cf45;
+	margin: 15px 0px;
+	position: relative;
+	left: 50%;
+	margin-left: -60px;
+	padding: 5px 20px;
+	text-align: center;
+	font-weight: bolder;
+	width: 80px;
+	display: block;
+	vertical-align: middle;
+}
+.inRotativo{
+	-webkit-animation: 1s inRotativo 1;
+}
+@-webkit-keyframes inRotativo{
+	0%{
+		opacity: 0;
+		-webkit-transform:  translateX(-100%) rotate(-260deg);
+	}
+}
+.outRotativo{
+	-webkit-animation: 1s outRotativo 1;
+}
+@-webkit-keyframes outRotativo{
+	0%{
+		opacity: 0;
+		-webkit-transform:  translateX(100%) rotate(260deg);
+	}
+}

@@ -1,0 +1,48 @@
+div{
+	font-family: 'Arial';
+	background-color: #a8cf45;
+	margin: 15px 0px;
+	position: relative;
+	left: 50%;
+	margin-left: -60px;
+	padding: 5px 20px;
+	text-align: center;
+	font-weight: bolder;
+	width: 80px;
+	display: block;
+	vertical-align: middle;
+}
+
+.girox{
+	-webkit-animation:  1.5s girox 1;
+	-webkit-backface-visibility: visible;
+}
+@-webkit-keyframes girox{
+	0%{
+		opacity: 0.5;
+		-webkit-transform: perspective(200px) rotateX(90deg);
+	}
+	40%{
+		-webkit-transform: perspective(200px) rotateX(-20deg);
+	}
+	70%{
+		-webkit-transform: perspective(200px) rotateX(20deg);
+	}
+}
+
+.giroy{
+	-webkit-animation:  1.5s giroy 1;
+	-webkit-backface-visibility: visible;
+}
+@-webkit-keyframes giroy{
+	0%{
+		opacity: 0.5;
+		-webkit-transform: perspective(200px) rotateY(90deg);
+	}
+	40%{
+		-webkit-transform: perspective(200px) rotateY(-20deg);
+	}
+	70%{
+		-webkit-transform: perspective(200px) rotateY(20deg);
+	}
+}

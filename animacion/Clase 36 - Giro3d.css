@@ -1,0 +1,33 @@
+div{
+	font-family: 'Arial';
+	background-color: #a8cf45;
+	margin: 15px 0px;
+	position: relative;
+	left: 50%;
+	margin-left: -60px;
+	padding: 5px 20px;
+	text-align: center;
+	font-weight: bolder;
+	width: 80px;
+	display: block;
+	vertical-align: middle;
+}
+
+.giro{
+	-webkit-animation: 1s giro 1;
+	-webkit-backface-visibility: visible;
+}
+@-webkit-keyframes giro{
+	40%{
+		-webkit-transform: perspective(300px) translateZ(120px) rotateY(170deg);
+	}
+	50%{
+		-webkit-transform: perspective(300px) translateZ(120px) rotateY(190px);
+	}
+	80%{
+		-webkit-transform: perspective(300px) translateZ(0px) rotateY(360deg);
+	}
+	100%{
+		-webkit-transform: perspective(300px) rotateY(360deg);	
+	}
+}

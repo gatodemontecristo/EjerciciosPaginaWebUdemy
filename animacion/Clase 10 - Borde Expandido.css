@@ -1,0 +1,33 @@
+body{
+	background: #64062E;
+}
+div{
+	font-family: 'Arial';
+	background-color: #a8cf45;
+	margin: 10px 10px;
+	text-align: center;
+	font-weight: bolder;
+	padding: 15px 30px;
+	width: 80px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.expansion_borde{
+	position: relative;
+}
+.expansion_borde:before{
+	content: '';
+	position: absolute;
+	border: 4px solid white;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	-webkit-transition-duration:  0.5s;
+}
+.expansion_borde:hover:before{
+	top: -8px;
+	bottom: -8px;
+	left: -8px;
+	right: -8px;
+}

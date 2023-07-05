@@ -1,0 +1,24 @@
+div{
+	font-family: 'Arial';
+	background-color: #a8cf45;
+	margin: 15px 2px;
+	padding: 5px 40px;
+	height: 60px;
+	text-align: center;
+	font-weight: bolder;
+	width: 80px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.click:hover{
+	-webkit-animation:  1s click 1;
+}
+@-webkit-keyframes click{
+	25%, 75%{
+		-webkit-transform: scale(0.8);
+	}
+	50%{
+		-webkit-transform: scale(1.1);
+	}
+}

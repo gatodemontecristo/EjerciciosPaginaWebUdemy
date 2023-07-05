@@ -1,0 +1,23 @@
+div{
+	font-family: 'Arial';
+	background-color: #a8cf45;
+	margin: 15px 2px;
+	padding: 5px 40px;
+	text-align: center;
+	font-weight: bolder;
+	width: 80px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.flash:hover{
+	-webkit-animation: 1s flash 1;
+}
+@-webkit-keyframes flash{
+	0%, 50%, 100%{
+		opacity: 1;
+	}
+	25%, 75%{
+		opacity: 0;
+	}
+}

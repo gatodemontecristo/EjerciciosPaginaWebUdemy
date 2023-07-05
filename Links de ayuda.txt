@@ -1,0 +1,57 @@
+Normalize 
+https://necolas.github.io/normalize.css/
+
+Modernizr
+https://modernizr.com/
+
+Can I use
+https://caniuse.com/
+
+Sublime text
+https://www.sublimetext.com/
+
+Fuentes para descargar:
+https://www.dafont.com/es/
+
+Google font:
+https://fonts.google.com/
+
+Woorank
+https://www.woorank.com/es/?genbar=1
+
+kwfinder
+https://kwfinder.com/es/
+
+Validador W3C
+https://validator.w3.org/
+
+BlackListMaster
+https://www.blacklistmaster.com/?attempt=1
+
+Analizador de velocidad de carga :
+https://uitest.com/check/
+https://developers.google.com/speed/pagespeed/insights/
+https://tools.pingdom.com/
+
+Comprimir codigo
+https://herramientas-online.com/comprimir-descomprimir-css.html
+
+Colores
+https://www.presenciaweb.net/tools/circulo-cromatico/
+https://color.adobe.com/es/create/color-wheel
+
+Iconos
+https://icomoon.io/
+
+Mockup
+https://ninjamock.com/
+http://pencil.evolus.vn/
+
+Luminoso
+https://octuweb.com/responsive-luminoso/
+
+Efectos
+https://codepen.io/
+
+Ejemplo shadow
+https://getcssscan.com/css-box-shadow-examples

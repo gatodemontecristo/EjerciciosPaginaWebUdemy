@@ -1,0 +1,35 @@
+/*p{
+	position: relative;
+}
+p:before{
+	content: "Este es un saludo";
+	top: 50px;
+	position: relative;
+}*/
+
+
+/*a#link2:link{
+	color: green;
+}
+a#link1:visited{
+	color: red;
+}*/
+
+
+/*link
+visited
+hover
+active
+focus*/
+p:hover{
+	color: green;
+	font-size: 20px;
+	font-weight: bolder;
+}
+span:active{
+	color: green;
+}
+input:focus{
+	border-radius: 20px;
+	background: #FFD6D6;
+}

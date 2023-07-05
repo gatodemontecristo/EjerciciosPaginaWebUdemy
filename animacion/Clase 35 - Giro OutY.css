@@ -1,0 +1,33 @@
+div{
+	font-family: 'Arial';
+	background-color: #a8cf45;
+	margin: 15px 0px;
+	position: relative;
+	left: 50%;
+	margin-left: -60px;
+	padding: 5px 20px;
+	text-align: center;
+	font-weight: bolder;
+	width: 80px;
+	display: block;
+	vertical-align: middle;
+}
+.giroOutY{
+	-webkit-animation: 1.5s giroOutY 1;
+}
+@-webkit-keyframes giroOutY{
+	100%{
+		opacity: 0.3;
+		-webkit-transform: perspective(100px) rotateY(90deg);
+	}
+}
+
+.giroOutX{
+	-webkit-animation: 1.5s giroOutX 1;
+}
+@-webkit-keyframes giroOutX{
+	100%{
+		opacity: 0.3;
+		-webkit-transform: perspective(100px) rotateX(-90deg);
+	}
+}

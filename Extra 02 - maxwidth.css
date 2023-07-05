@@ -1,0 +1,26 @@
+.pe_none{
+    max-width: none  ;
+    color:white;
+    background-color:green;
+}
+.pe_length{
+    max-width: 110px  ;
+    color:white;
+    background-color:green;
+}
+.pe_porcentaje {
+    max-width: 20%;
+    color:white;
+    background-color:green;
+}
+
+.pe_initial {
+    max-width: initial;
+    color:white;
+    background-color:green;
+}
+.pe_inherit {
+    max-width: initial;
+    color:white;
+    background-color:green;
+}

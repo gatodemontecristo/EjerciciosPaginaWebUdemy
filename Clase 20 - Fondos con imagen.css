@@ -1,0 +1,52 @@
+div{
+	 height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    margin: 50px;
+	/*background: url(firma.gif),
+	url("imagen.jpg");
+	background-repeat: no-repeat,repeat;
+	background-position: right bottom, center center;*/
+	/*background-repeat: no-repeat;
+	background-position: border-box;*/
+}
+.imagen{
+    background: url("firma.gif"),
+                url("imagen.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: right bottom, 
+                        center center;
+  
+}
+/*figure, img{
+	width: 100%;
+}*/
+/*figure{
+	background: url("imagen.jpg");
+}*/
+
+/*
+
+Para posicionar el fondo de un elemento 
+tenemos 3 opciones: 
+border-box (desde el borde), 
+padding-box (desde la zona del padding) y 
+content-box (desde la zona del contenido)
+
+*/
+.degradados{
+	/*background: -webkit-linear-gradient(
+        left 20deg,
+        blue 0%,
+        red 30%,
+        green 80%,
+        yellow 100%
+        );*/
+        background: -webkit-radial-gradient(
+        center,
+        blue 0%,
+        red 30%,
+        green 80%,
+        yellow 100%
+        );
+} 

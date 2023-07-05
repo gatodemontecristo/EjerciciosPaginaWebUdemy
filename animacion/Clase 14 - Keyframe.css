@@ -1,0 +1,46 @@
+div{
+	font-family: 'Arial';
+	background-color: #a8cf45;
+	text-align: center;
+	font-weight: bolder;
+	position: relative;
+	width: 120px;
+	height: 50px;
+	margin: 30px 0 0 10px;
+}
+p{
+	padding-top: 15px;
+}
+
+.caja:hover{
+	-webkit-animation: 5s cambia_color 1;
+}
+@-webkit-keyframes cambia_color{
+	0%, 70%{
+		background: blue;
+	}
+	50%{
+		background: red;
+		height: 200px;
+	}
+/*OTRA OPCION*/
+	/*from{
+		background: blue;
+	}
+	to{
+		background: yellow;
+	}*/
+}
+/*
+animation-name:  indica el nombre que tendrá el keyframe que se añadirá a continuación
+
+animation-duration: tiempo total de la animación
+
+animation-iteration-count: 
+veces que se repetirá. Para que sea en bucle pondremos el valor "infinite"
+
+animation-delay: retardo con el que comenzará a aplicarse la reproducción de la animación
+
+
+
+*/

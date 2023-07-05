@@ -1,0 +1,42 @@
+body{
+	background: blue;
+}
+
+div{
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	margin: 20px;
+}
+.reservadas{
+	background: lime;
+}
+/*RGB DECIMAL*/
+.luzRGB{
+	background: rgb(255, 255, 0);
+}
+/*LIME*/
+.luzRGB{
+	background: rgb(0, 255, 0);
+}
+
+/*RGB HEXADECIMAL*/
+.hex{
+	background: #00ff00;
+}
+
+/*RGB PORCENTUAL*/
+.porcentual{
+	background: rgb(50%, 20%, 75%);
+}
+/*COLOR HSL*/
+.hsl{
+	background: hsl(240, 100%, 50%);
+}
+/*TRANSPARENCIA*/
+.rgb_transparencia{
+	background: rgba(0, 255, 0, 0.5);
+}
+.hsla_transparencia{
+	background: hsla(240, 100%, 50%, 0.8);
+}

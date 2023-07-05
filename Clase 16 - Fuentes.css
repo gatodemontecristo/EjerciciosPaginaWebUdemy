@@ -1,0 +1,14 @@
+@font-face{
+	font-family: "elizabeth";
+	src:  url("font/The Castle Elizah.eot");
+	src: local('?'),
+	url("font/The Castle Elizah.woff") format("woff"),
+	url("font/The Castle Elizah.ttf") format("truetype");
+}
+
+p{
+	font-family: "elizabeth", Arial;
+}
+span{
+	font-family: 'Big Shoulders Stencil Display', cursive;
+}

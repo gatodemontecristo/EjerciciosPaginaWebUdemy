@@ -1,0 +1,28 @@
+.padre{
+	width: 250px;
+	height: 2500px;
+	margin: 25px;
+	background: orange;
+	position: relative;
+}
+/*.padre>div{
+	display: inline-block;
+	vertical-align: top;
+}*/
+.hijo1{
+	width: 50px;
+	height: 50px;
+	background: red;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	/*position: relative;
+	top: 30px;
+	top: -30px;
+	left:  200px;*/
+}
+.hijo2{
+	width: 100px;
+	height: 100px;
+	background: green;
+}

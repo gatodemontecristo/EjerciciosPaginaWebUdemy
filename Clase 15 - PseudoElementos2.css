@@ -1,0 +1,37 @@
+body{
+	background: khaki;
+	font-size: 12px;
+}
+div{
+	margin: 10px;
+}
+div *{
+	border: 1px solid black;
+	width: 80px;
+	height: 50px;
+	background: white;
+	display: inline-block;
+}
+div *:nth-child(3){
+	background: orange;
+}
+/*IMPAR*/
+/*div *:nth-child(odd){
+	background: orange;
+}*/
+/*IMPAR*/
+/*div *:nth-child(eve){
+	background: orange;
+}*/
+div p:nth-of-type(2){
+	background: green;
+}
+div article:first-of-type{
+	background: blue;
+}
+/*div article:only-of-type{
+	background: blue;
+}*/
+div *:not(p){
+	background: grey;
+}
